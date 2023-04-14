@@ -1,0 +1,28 @@
+.table img {
+    width: 216px;
+    height: 81px;
+    border-radius: 20px;
+    margin: 10px;
+}
+th,
+td {
+    text-align: center;
+    word-break: keep-all;
+}
+.edit {
+    margin-bottom: 36px;
+}
+
+input[type="file"] {
+    border: none;
+}
+input[type="file"]::file-selector-button {
+    border: 1px solid #ffbebb;
+    background: #fff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+input[type="file"]::file-selector-button:hover {
+    background: #ff534b;
+    color: #fff;
+}

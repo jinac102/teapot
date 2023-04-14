@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEAPOT_Class</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/class.css" />
+  </head>
+  <body>
+    <header>
+      <h1>헤더</h1>
+    </header>
+    <main class="position-relative">
+      <div class="tit_class">
+        <div
+          class="tit_container d-flex justify-content-around align-items-center"
+        >
+          <div class="main_tit">
+            <h2 class="suit_bold_xl text-uppercase">class</h2>
+            <p class="suit_rg_s">
+              Teapot에서만 들을 수 있는 수업! 지금 신청해보세요.
+            </p>
+          </div>
+          <div class="sprite class">
+            <span class="hidden">class</span>
+          </div>
+        </div>
+      </div>
+      <section class="tb150">
+        <h2 class="hidden">class</h2>
+        <div class="cls_wrap">
+          <div class="cls_R_BTN">
+            <div
+              class="button-group d-flex justify-content-end"
+              data-filter-group="price"
+            >
+              <div class="form-check" data-filter=".free">
+                <input
+                  class="form-check-input hidden"
+                  type="radio"
+                  name="cls_p"
+                  id="cls_p_free"
+                />
+                <label
+                  class="form-check-label cls_f_RBTN RBTN suit_bold_s"
+                  for="cls_p_free"
+                >
+                  무료
+                </label>
+              </div>
+              <div class="form-check" data-filter=".pay">
+                <input
+                  class="form-check-input hidden"
+                  type="radio"
+                  name="cls_p"
+                  id="cls_p_pay"
+                />
+                <label
+                  class="form-check-label cls_p_RBTN RBTN suit_bold_s"
+                  for="cls_p_pay"
+                >
+                  유료
+                </label>
+              </div>
+            </div>
+          </div>
+          <div
+            class="cls_ch_btn d-flex justify-content-end sort-by-button-group'"
+            data-filter-group="level"
+          >
+            <div class="form-check">
+              <input
+                class="form-check-input hidden"
+                type="checkbox"
+                value="전체"
+                id="chbtn_all"
+                data-filter="*"
+              />
+              <label class="form-check-label" for="chbtn_all"> 전체</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="hidden"
+                type="checkbox"
+                value="초급"
+                id="chbtn_jr"
+                data-filter=".ch_jr"
+              />
+              <label class="form-check-label" for="chbtn_jr">초급</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input hidden"
+                type="checkbox"
+                value="중급"
+                id="chbtn_mid"
+                data-filter=".ch_mid"
+              />
+              <label class="form-check-label" for="chbtn_mid">중급</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input hidden"
+                type="checkbox"
+                value="고급"
+                id="chbtn_high"
+                data-filter=".chbtn_high"
+              />
+              <label class="form-check-label" for="chbtn_high"> 고급</label>
+            </div>
+          </div>
+          <ul class="main_contents">
+            <li class="DP_shadow">
+              <div class="row">
+                <div class="cls_tit col-6">
+                  <ul class="cls_tit_content grid">
+                    <li
+                      class="d-flex catenlike element-item ch_jr free"
+                      data-order="1"
+                    >
+                      <p class="cls_cate suit_rg_s">초급&#95;비지니스회화</p>
+                      <div class="sprite like">
+                        <span class="hidden">like</span>
+                      </div>
+                    </li>
+                    <li class="suit_rg_m">
+                      &#91;초급&#93; 비즈니스 회화 - 일잘러들의 비밀무기
+                    </li>
+                    <li class="suit_rg_s">
+                      현지에서 살아남기 위한 영어 - 현지에서 살아남기 위한
+                      영어&#33;
+                    </li>
+                    <li class="suit_rg_s btn_s_p">
+                      <a href=""> 더보기 &#62; </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6 cls_thumb">
+                  <img src="../img/cls/20230322162243169834.jpg" alt="" />
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="pagination justify-content-center">
+            <ul
+              class="class_pg d-flex justify-content-center align-items-center gap-5"
+            >
+              <li>
+                <a class="suit_bold_m" href=""
+                  ><i class="fa-solid fa-angles-left"></i
+                ></a>
+              </li>
+              <li class>
+                <a class="suit_bold_m PG_num click" href="">1</a>
+              </li>
+              <li><a class="suit_bold_m PG_num" href="">2</a></li>
+              <li><a class="suit_bold_m PG_num" href="">3</a></li>
+              <li><a class="suit_bold_m PG_num" href="">4</a></li>
+              <li><a class="suit_bold_m PG_num" href="">5</a></li>
+              <li>
+                <a class="suit_bold_m" href=""
+                  ><i class="fa-solid fa-angles-right"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>푸터</footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(".like").click(function () {
+        if ($(this).hasClass("check")) {
+          $(this).removeClass("check");
+        } else {
+          $(this).addClass("check");
+        }
+      });
+
+      // sorting 라이브러리
+      var $grid = $(".grid").isotope({
+        itemSelector: ".element-item",
+        layoutMode: "fitRows",
+      });
+
+      // sorting 필터
+      var filterFns = {
+        // show if number is greater than 50
+        numberGreaterThan50: function () {
+          var number = $(this).find(".number").text();
+          return parseInt(number, 10) > 50;
+        },
+        // show if name ends with -ium
+        ium: function () {
+          var name = $(this).find(".name").text();
+          return name.match(/ium$/);
+        },
+      };
+
+      // bind filter button click
+      $(".form-check-label").on("click", "button", function () {
+        var filterValue = $(this).attr("data-filter");
+        // use filterFn if matches value
+        filterValue = filterFns[filterValue] || filterValue;
+        $grid.isotope({ filter: filterValue });
+      });
+
+      // change is-checked class on buttons
+      $(".button-group").each(function (i, buttonGroup) {
+        var $buttonGroup = $(buttonGroup);
+        $buttonGroup.on("click", "button", function () {
+          $buttonGroup.find(".is-checked").removeClass("is-checked");
+          $(this).addClass("is-checked");
+        });
+      });
+    </script>
+  </body>
+</html>

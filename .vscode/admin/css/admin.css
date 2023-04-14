@@ -1,0 +1,113 @@
+#dashboard {
+  width: 100%;
+  height: auto;
+}
+.background {
+  background-color: var(--fontColor-w);
+  width: 1671px;
+  height: 890px;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  margin: 20px auto 0;
+}
+#dashboard .background .col-md-2 {
+  padding-left: 0;
+}
+.m-bg {
+  width: 268px;
+  height: 823px;
+  background-color: var(--primary);
+  border-radius: 20px;
+  position: relative;
+  margin-top: 0;
+}
+.logo {
+  margin: 13px 0 13px 47.5px;
+}
+.m-dash {
+  width: 100%;
+  padding-top: 30px;
+  gap: 2rem;
+  padding-left: 0;
+  position: relative;
+}
+.m-dash > li {
+  padding-left: 55px;
+  position: relative;
+  line-height: 35px;
+}
+.m-dash > li a {
+  color: var(--background);
+  text-decoration: none;
+}
+.m-dash > li.clicks::before {
+  content: "";
+  background-color: var(--fontColor-w);
+  line-height: 35px;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  width: 268px;
+  height: 40px;
+}
+.m-dash > li.clicks a {
+  color: var(--primary);
+  position: relative;
+  z-index: 1;
+}
+.m-main li {
+  margin-bottom: 27px;
+  line-height: 40px;
+}
+.m-main li a,
+.logout a {
+  color: var(--fontColor-w);
+}
+.m-dash > li a i,
+.m-dash > li a {
+  margin-left: 10px;
+}
+.bi {
+  transform: rotate(20deg);
+  display: inline-block;
+}
+.profile {
+  bottom: 81px;
+  width: 235px;
+  height: 219px;
+  background-color: var(--fontColor-w);
+  border-radius: 25px;
+  left: 16px;
+  line-height: 27px;
+}
+.profile div {
+  text-align: center;
+}
+.profileimg {
+  width: 95px;
+  height: 95px;
+  display: inline-block;
+  margin: 20px 0;
+}
+.profile img {
+  /* padding: 20px 0; */
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.logout button {
+  bottom: 27px;
+  width: 100%;
+  border: none;
+  background: none;
+  color: var(--fontColor-w);
+}
+.logout button i {
+  margin-left: 10px;
+}

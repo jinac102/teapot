@@ -1,0 +1,23 @@
+.edit {
+    margin-bottom: 36px;
+}
+.edit a {
+    color: #ff534b;
+}
+table {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 36px;
+}
+table tr {
+    height: 60px;
+    line-height: 60px;
+}
+main {
+    margin-top: 20px;
+}
+
+.pagination {
+    margin-top: 100px;
+}

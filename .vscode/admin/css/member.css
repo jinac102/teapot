@@ -1,0 +1,51 @@
+main {
+  margin-top: 20px;
+}
+.memberlist select {
+  width: 148px;
+  border: 1px solid var(--point);
+}
+.memberlist label {
+  text-indent: -999em;
+  overflow: hidden;
+}
+.btn_member {
+  border: none;
+  background: var(--background);
+  border-radius: 5px;
+}
+.btn_member i {
+  color: var(--point);
+  font-size: 30px;
+}
+table {
+  text-align: center;
+}
+tr {
+  border-bottom: 1px solid #ccc;
+  line-height: 60px;
+}
+.status_join,
+.status_block,
+.status_session {
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+}
+.status_join {
+  background: green;
+}
+.status_block {
+  background: var(--point);
+}
+.status_session {
+  background: #7d7d7d;
+}
+.pagination {
+  margin-top: 100px;
+}

@@ -1,0 +1,10 @@
+insert into lms_lec  (lidx , lec_title, lec_clsnum, lec_text, lec_href, regdate, lec_st) values (1, 'Gray Matters', 1, 'Muddy River', 'https://', '2/7/2023', 1);
+insert into lms_lec  (lidx , lec_title, lec_clsnum, lec_text, lec_href, regdate, lec_st) values (2, 'Post Grad', 1, 'Map of the Human Heart', 'http://', '8/16/2022', 2);
+insert into lms_lec  (lidx , lec_title, lec_clsnum, lec_text, lec_href, regdate, lec_st) values (3, 'One Husband Too Many', 1, 'Stay', 'http://', '11/8/2022', 2);
+insert into lms_lec  (lidx , lec_title, lec_clsnum, lec_text, lec_href, regdate, lec_st) values (4, 'Amadeus', 1, 'French Connection II', 'https://', '5/12/2022', 0);
+insert into lms_lec  (lidx , lec_title, lec_clsnum, lec_text, lec_href, regdate, lec_st) values (5, 'The Face of Love', 1, 'Fourth Kind, The', 'http://', '7/19/2022', 1);
+insert into lms_lec  (lidx , lec_title, lec_clsnum, lec_text, lec_href, regdate, lec_st) values (6, 'Sierra, La', 1, 'Downhill', 'http://', '1/7/2023', 2);
+insert into lms_lec  (lidx , lec_title, lec_clsnum, lec_text, lec_href, regdate, lec_st) values (7, 'Woman in the Meadow (Nainen kedolla)', 1, 'Aningaaq', 'http://', '9/12/2022', 1);
+insert into lms_lec  (lidx , lec_title, lec_clsnum, lec_text, lec_href, regdate, lec_st) values (8, 'Von Ryan''s Express', 1, 'Gone in 60 Seconds', 'https://', '8/19/2022', 2);
+insert into lms_lec  (lidx , lec_title, lec_clsnum, lec_text, lec_href, regdate, lec_st) values (9, 'Intruder in the Dust', 1, 'The Mascot', 'https://', '1/24/2023', 1);
+insert into lms_lec  (lidx , lec_title, lec_clsnum, lec_text, lec_href, regdate, lec_st) values (10, 'Age of the Dragons', 1, 'Angel of Mine (a.k.a. The Mark of an Angel) (L''empreinte de l''ange)', 'https://', '5/13/2022', 0);

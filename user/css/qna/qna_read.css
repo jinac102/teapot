@@ -1,0 +1,108 @@
+.banner {
+  height: 243px;
+  background: var(--background);
+  margin-bottom: 150px;
+}
+.qna_container {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+.qna_container p {
+  margin-bottom: 0;
+}
+.user_info {
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--btnColor-fb);
+}
+.user_info > div {
+  margin-bottom: 30px;
+}
+.qna_container .question_title {
+  margin-bottom: 30px;
+}
+.user_profile_name div,
+.admin_info .profile_admin {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user_info .user img,
+.admin_info img {
+  width: 100%;
+}
+.username {
+  margin-left: 20px;
+}
+.qna_container .user_question {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* if(답변완료) */
+.admin_reply_section {
+  width: 1130px;
+  padding: 30px 83px 60px 35px;
+  background: var(--background);
+  margin-bottom: 70px;
+  border-radius: 5px;
+}
+.admin_info {
+  margin-bottom: 30px;
+}
+.admin_info div {
+  margin-left: 20px;
+}
+.admin_reply {
+  text-indent: 10px;
+  margin-left: 48px;
+  text-align: justify;
+}
+.recommend {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.recommend button {
+  border: none;
+  background: none;
+}
+.recommend p {
+  color: var(--fontColor-g);
+}
+.btns {
+  margin-bottom: 200px;
+}
+.btns a {
+  text-decoration: none;
+  color: var(--btnColor-fb);
+}
+.prev_btn i {
+  margin-right: 10px;
+}
+.next_btn i {
+  margin-left: 10px;
+}
+.btns button {
+  margin-left: 125px;
+  margin-right: 125px;
+}
+/* else(답변대기) */
+.unanswered_btns {
+  margin-top: 500px;
+  margin-bottom: 200px;
+}
+/* qna_modify.php */
+.tiny_library {
+  width: 1129px;
+  height: 500px;
+  border-radius: 10px;
+  background: var(--fontColor-w);
+}
+.qna_btn {
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+.admin_reply span {
+  font-size: 18px !important;
+}

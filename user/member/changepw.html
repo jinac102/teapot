@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEAPOT</title>
+    <link rel="icon" href="../img/pabcon.png" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+      integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form
+      action="../../login.php"
+      method="post"
+      class="form_join d-flex flex-column justify-content-center align-items-center"
+    >
+      <h3 class="signup_tt h3 my-5 text-center">비밀번호 찾기</h3>
+      <h5 class="find_tt h5 text-center">
+        <p class="m-0">비밀번호를 변경해주세요.</p>
+        <p>
+            다른 아이디나 사이트에서 사용한 적 없는 안전한 비밀번호로
+            변경해 주세요.
+        </p>
+      </h5>
+      <div class="form_login suit_bold_s">
+        <label for="userpw"><span>*</span>비밀번호</label>
+        <input
+          type="password"
+          name="userpw"
+          id="userpw"
+          placeholder="PASSWORD"
+          required
+        />
+      </div>
+      <div class="form_login suit_bold_s confirm_pw">
+        <label for="userpw"><span>*</span>비밀번호 확인</label>
+        <input
+          type="password"
+          id="confirm_pw"
+          data-pass="no"
+          placeholder="PASSWORD 확인"
+          required
+        />
+      </div>
+      <button type="submit" class="btn_login mt-5 suit_rg_s">
+        비밀번호 변경
+      </button>
+    </form>
+  </body>
+</html>

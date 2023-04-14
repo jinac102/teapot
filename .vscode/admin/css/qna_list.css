@@ -1,0 +1,44 @@
+#dashboard .background .col-md-10 {
+  height: 100%;
+}
+main {
+  margin-top: 20px;
+}
+main h2 {
+  margin-bottom: 70px;
+}
+table {
+  padding-top: 100px;
+}
+tr {
+  line-height: 60px;
+}
+.reply_status,
+.shortcuts {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 18px;
+}
+.reply_status {
+  color: #fff;
+}
+.shortcuts {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+.answer_wait {
+  background: #7d7d7d;
+}
+.answer_complete {
+  background: green;
+}
+
+/* 페이지네이션 */
+.pagination {
+  margin-top: 120px;
+}
