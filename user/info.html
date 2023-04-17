@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <title>위계</title>
+  </head>
+  <body>
+    <section>
+      <h1>48px</h1>
+      <p class="suit_el_xl">ExtraLight - 폰트</p>
+      <p class="suit_rg_xl">Regular - 폰트</p>
+      <p class="suit_bold_xl">bold - 폰트</p>
+      <br />
+      <h1>32px</h1>
+      <h2 class="suit_el_l">ExtraLight - 폰트</h2>
+      <h2 class="suit_rg_l">Regular - 폰트</h2>
+      <h2 class="suit_bold_l">bold - 폰트</h2>
+      <br />
+      <h1>24px</h1>
+      <p class="suit_el_m">ExtraLight - 폰트</p>
+      <h3 class="suit_rg_m">Regular - 폰트</h3>
+      <h3 class="suit_bold_m">bold - 폰트</h3>
+      <br />
+      <h1>18px</h1>
+      <p class="suit_el_s">ExtraLight - 폰트</p>
+      <p class="suit_rg_s">Regular - 폰트</p>
+      <p class="suit_bold_s">bold - 폰트</p>
+      <h1>16px</h1>
+      <p class="suit_el_xs">ExtraLight - 폰트</p>
+      <p class="suit_rg_xs">Regular - 폰트</p>
+      <p class="suit_bold_xs">bold - 폰트</p>
+    </section>
+    <hr />
+
+    <section>
+      <button class="btn_login suit_rg_s">ID찾기</button>
+      <button class="btn_login suit_rg_s">비밀번호 찾기</button>
+      <button class="btn_login_s suit_rg_s">LOGIN</button>
+      <button class="btn_login_s suit_rg_s">비밀번호찾기</button>
+      <br />
+      <br />
+      <button class="btn_l_b suit_rg_m">목록보기</button>
+      <button class="btn_l_b suit_rg_m">쿠폰받기</button>
+      <button class="btn_l_b suit_rg_m">무료강의체험</button>
+      <br />
+      <br />
+      <button class="btn_l_p suit_rg_m">결제하기</button>
+      <button class="btn_l_p suit_rg_m">클래스신청</button>
+      <br />
+      <br />
+      <button class="btn_s_b suit_rg_s">목록</button>
+      <button class="btn_s_b suit_rg_s">수정</button>
+      <button class="btn_s_b suit_rg_s">삭제</button>
+      <button class="btn_s_b suit_rg_s">등록</button>
+      <br />
+      <br />
+      <button class="btn_s_p suit_rg_s">바로가기</button>
+      <button class="btn_s_grey suit_rg_s">답변대기</button>
+      <button class="btn_s_green suit_rg_s">답변완료</button>
+    </section>
+    <hr />
+
+    <section>
+      <div class="search">
+        <form action="" method="">
+          <!-- <form action="search.php" method="GET"> -->
+          <label for="search_type"></label>
+          <select name="search_type" id="search_type" class="category">
+            <option value="title">제목</option>
+            <option value="content">내용</option>
+            <option value="author">글쓴이</option>
+          </select>
+          <label for="search_term"></label>
+          <input
+            type="text"
+            name="search_term"
+            id="search_term"
+            class="search_bar"
+            placeholder="검색어를 입력해주세요."
+          />
+          <button class="btn_s_b suit_rg_s" type="submit">검색</button>
+        </form>
+      </div>
+    </section>
+    <hr />
+
+    <section>
+      <div class="pagination">
+        <ul
+          class="class_pg d-flex justify-content-center align-items-center gap-5"
+        >
+          <li>
+            <a class="suit_bold_m" href=""
+              ><i class="fa-solid fa-angles-left"></i
+            ></a>
+          </li>
+          <li class>
+            <a class="suit_bold_m PG_num click" href="">1</a>
+          </li>
+          <li><a class="suit_bold_m PG_num" href="">2</a></li>
+          <li><a class="suit_bold_m PG_num" href="">3</a></li>
+          <li><a class="suit_bold_m PG_num" href="">4</a></li>
+          <li><a class="suit_bold_m PG_num" href="">5</a></li>
+          <li>
+            <a class="suit_bold_m" href=""
+              ><i class="fa-solid fa-angles-right"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <hr />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

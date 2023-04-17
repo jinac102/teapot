@@ -329,28 +329,31 @@ $('.form-check-label').click(function(){
 
 $('.cls_ch_btn input').change(function(){
 
-    if($FP != ""){
-        current_url = "http://tgif.dothome.co.kr/teapot/user/class/grade.php?";
-    }else if($FP = 1){
+    if($FP == ""){
+        current_url ="http://tgif.dothome.co.kr/teapot/user/class/grade.php?";
+    }else if($FP == 1){
         current_url = "http://tgif.dothome.co.kr/teapot/user/class/grade.php?cls_FP=1&";
-    }else{
+    }else if($FP == 0){
         current_url = "http://tgif.dothome.co.kr/teapot/user/class/grade.php?cls_FP=0&";
     }
     let param = $(this).val();
     let active = $c_url.indexOf(param);
-    console.log(active);
-    console.log(current_url);
+    // console.log(param);
+    // console.log(active);
+    // console.log(current_url);
+    // console.log($FP);
     if(active == -1){
         let new_url = `${current_url}grade=${param}`;
         location.href = new_url;
+        console.log(new_url);
     }
 
 });
-console.log($c_url);
+// console.log($c_url);
 $('.cls_ch_btn input').each(function(){
     let value = $(this).val();
     let active = $c_url.indexOf(value);
-    console.log(active);
+    // console.log(active);
     if(value > -1){
         $(this).next().addClass('active');
         $(this).prop('disabled',true);
